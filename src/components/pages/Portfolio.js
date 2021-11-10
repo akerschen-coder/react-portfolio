@@ -3,15 +3,40 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+<section className="main-section" id= "work">
+            <div className="side-by-side center">
+                <a href="https://secure-crag-98297.herokuapp.com/login" target="_blank" rel="noreferrer">
+                   <div className="flex card1"> 
+                        <h4>Din-Din A Menu App</h4>
+                   </div>
+                </a>
+
+               <a href="https://github.com/akerschen-coder/e-commerence" target="_blank" rel="noreferrer">
+                   <div className="p2 flex">
+                    <h4>E-commerence Backend</h4>
+                   </div> 
+                </a>
+           
+               <a href="https://akerschen-coder.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
+                    <div className="p3 flex">
+                        <h4>Weather DashBoard</h4>
+                    </div>
+                </a>
+           
+               <a href="https://limitless-eyrie-51099.herokuapp.com/" target="_blank" rel="noreferrer">
+                   <div className="p4 flex">
+                       <h4>Note Taker</h4>
+                    </div>
+               </a>
+
+               <a href="https://github.com/akerschen-coder/employee-page-builder" target="_blank" rel="noreferrer">
+                    <div className="p5 flex">
+                        <h4>Employee Page builder Repo- Backend</h4>
+                   </div>
+                </a>
+            </div>
+            </section>
+
     </div>
   );
 }

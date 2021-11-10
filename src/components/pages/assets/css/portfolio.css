@@ -1,0 +1,33 @@
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+ .flex {
+    display: flex; 
+    border: 5px solid var(--purple);
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 400px;
+    max-width: 400px;
+    margin: 5px;
+    background-size: 100%;
+    font-size: 150%;
+    transition: transform 2s;
+ } 
+ .flex:hover{
+     transform: rotate(10deg);
+ }
+ .card1 {
+     min-height: 400px;
+     min-width: 820px;
+     background-image: url("../images/sunflow.jpeg.jpg")
+ }
+
+ h4 {
+     text-decoration: none;
+     color: beige;
+ }
