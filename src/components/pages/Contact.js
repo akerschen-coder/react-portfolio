@@ -1,5 +1,6 @@
 import React from 'react';
-import './assets/css/contact.css';
+import './assets/css/contact.css'; 
+import pic from './assets/images/contact.png'
 
 export default function Contact() {
     return (
@@ -7,7 +8,7 @@ export default function Contact() {
             <div className="contact1">
 		<div className="container-contact1">
 			<div className="contact1-pic js-tilt" data-tilt>
-				<img src="./assets/images/contact.png" alt="IMG"></img>
+				<img src={pic} alt="IMG"></img>
 			</div>
 
 			<form className="contact1-form validate-form">
