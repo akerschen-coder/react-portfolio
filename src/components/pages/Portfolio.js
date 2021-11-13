@@ -53,6 +53,13 @@ export default function Portfolio() {
                     <Card.Link href="https://github.com/akerschen-coder/employee-page-builder" target="_blank" rel="noreferrer"> Note Taker</Card.Link>
                 </Card.Body>
             </Card>
+            <p>
+                <ul >
+                    <li> <a href="https://www.linkedin.com/in/anastayzia-kerschen-584744218/">LinkedIn</a></li>
+                    <li> <a href="https://github.com/akerschen-coder">Github</a> </li>
+                    <li> <a href="mailto:anastayzia.kerschen@gmail.com">Email</a> </li>
+                </ul>
+            </p>
         </div>
     );
 }
